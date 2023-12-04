@@ -1,0 +1,28 @@
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		int x = 0;
+		int y = 4;
+		
+		while(x < 3) {
+			y = y + 2;
+			x = x + 1;
+			
+			
+			System.out.println(y + " " + x  );
+		}
+
+		sc.close();
+		
+		
+		// x = 1 + 2 + 3    y = 6 + 8 + 10
+
+	}
+
+}
